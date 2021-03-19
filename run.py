@@ -7,16 +7,22 @@ from glob import glob
 import torch, face_detection
 from models import Wav2Lip
 import platform
+import re
+import datetime
+from termcolor import colored
+import config # my config
+
+print(colored("starting wav2lip...", "green"))
 
 parser = argparse.ArgumentParser(description='Inference code to lip-sync videos in the wild using Wav2Lip models')
 
 parser.add_argument('--checkpoint_path', type=str, 
-					help='Name of saved checkpoint to load weights from', required=True)
+					help='Name of saved checkpoint to load weights from', required=False)
 
 parser.add_argument('--face', type=str, 
-					help='Filepath of video/image that contains faces to use', required=True)
+					help='Filepath of video/image that contains faces to use', required=False)
 parser.add_argument('--audio', type=str, 
-					help='Filepath of video/audio file to use as raw audio source', required=True)
+					help='Filepath of video/audio file to use as raw audio source', required=False)
 parser.add_argument('--outfile', type=str, help='Video path to save result. See default for an e.g.', 
 								default='results/result_voice.mp4')
 
@@ -50,10 +56,30 @@ parser.add_argument('--rotate', default=False, action='store_true',
 parser.add_argument('--nosmooth', default=False, action='store_true',
 					help='Prevent smoothing face detections over a short temporal window')
 
+date = datetime.datetime.now()
+ts = date.strftime("%y%m%d-%H%M%S")
+
+checkpointName = re.search("(?<=checkpoints/).+?(?=.pth)", config.checkpoint)
+videoName = re.search("(?<=input\/).+?(?=\.)", config.video)
+videoName = videoName.group()
+if not checkpointName:
+	checkpointName = "checkpoint_name"
+else:
+	checkpointName = checkpointName.group()
+
+
+
 args = parser.parse_args()
 args.img_size = 96
+chinPad = config.chinPad or 10
+args.pads = [0, chinPad, 0, 0]
+filename = f"results/{ts}_{checkpointName}_{videoName}_pad-{config.chinPad}_nosmooth-{config.nosmooth}.mp4"
 
-if os.path.isfile(args.face) and args.face.split('.')[1] in ['jpg', 'png', 'jpeg']:
+print(colored(f"filename will be {filename}", "blue"))
+
+args.outfile = filename
+
+if os.path.isfile(config.video) and config.video.split('.')[1] in ['jpg', 'png', 'jpeg']:
 	args.static = True
 
 def get_smoothened_boxes(boxes, T):
@@ -99,7 +125,7 @@ def face_detect(images):
 		results.append([x1, y1, x2, y2])
 
 	boxes = np.array(results)
-	if not args.nosmooth: boxes = get_smoothened_boxes(boxes, T=5)
+	if not config.nosmooth: boxes = get_smoothened_boxes(boxes, T=5)
 	results = [[image[y1: y2, x1:x2], (y1, y2, x1, x2)] for image, (x1, y1, x2, y2) in zip(images, boxes)]
 
 	del detector
@@ -179,15 +205,15 @@ def load_model(path):
 	return model.eval()
 
 def main():
-	if not os.path.isfile(args.face):
+	if not os.path.isfile(config.video):
 		raise ValueError('--face argument must be a valid path to video/image file')
 
-	elif args.face.split('.')[1] in ['jpg', 'png', 'jpeg']:
-		full_frames = [cv2.imread(args.face)]
+	elif config.video.split('.')[1] in ['jpg', 'png', 'jpeg']:
+		full_frames = [cv2.imread(config.video)]
 		fps = args.fps
 
 	else:
-		video_stream = cv2.VideoCapture(args.face)
+		video_stream = cv2.VideoCapture(config.video)
 		fps = video_stream.get(cv2.CAP_PROP_FPS)
 
 		print('Reading video frames...')
@@ -214,14 +240,14 @@ def main():
 
 	print ("Number of frames available for inference: "+str(len(full_frames)))
 
-	if not args.audio.endswith('.wav'):
+	if not config.audio.endswith('.wav'):
 		print('Extracting raw audio...')
-		command = 'ffmpeg -y -i {} -strict -2 {}'.format(args.audio, 'temp/temp.wav')
+		command = 'ffmpeg -y -i {} -strict -2 {}'.format(config.audio, 'temp/temp.wav')
 
 		subprocess.call(command, shell=True)
-		args.audio = 'temp/temp.wav'
+		config.audio = 'temp/temp.wav'
 
-	wav = audio.load_wav(args.audio, 16000)
+	wav = audio.load_wav(config.audio, 16000)
 	mel = audio.melspectrogram(wav)
 	print(mel.shape)
 
@@ -249,7 +275,7 @@ def main():
 	for i, (img_batch, mel_batch, frames, coords) in enumerate(tqdm(gen, 
 											total=int(np.ceil(float(len(mel_chunks))/batch_size)))):
 		if i == 0:
-			model = load_model(args.checkpoint_path)
+			model = load_model(config.checkpoint)
 			print ("Model loaded")
 
 			frame_h, frame_w = full_frames[0].shape[:-1]
@@ -273,7 +299,7 @@ def main():
 
 	out.release()
 
-	command = 'ffmpeg -y -i {} -i {} -strict -2 -q:v 1 {}'.format(args.audio, 'temp/result.avi', args.outfile)
+	command = 'ffmpeg -y -i {} -i {} -strict -2 -q:v 1 {}'.format(config.audio, 'temp/result.avi', args.outfile)
 	subprocess.call(command, shell=platform.system() != 'Windows')
 
 if __name__ == '__main__':
