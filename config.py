@@ -8,7 +8,7 @@
 # wav2lip_gan.pth
 # lipsync_exper.pth
 checkpoint = "./checkpoints/wav2lip_gan.pth"
-video = "./input/face_b3_480.mp4"
-audio = "./input/7b.wav"
+video = "./input/face_b4_480.mp4"
+audio = "./input/vkaudio.m4a"
 chinPad = 15
 nosmooth = False 
