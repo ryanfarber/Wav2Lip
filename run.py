@@ -13,6 +13,7 @@ from termcolor import colored
 import config # my config
 
 print(colored("starting wav2lip...", "green"))
+print()
 
 parser = argparse.ArgumentParser(description='Inference code to lip-sync videos in the wild using Wav2Lip models')
 
@@ -58,10 +59,15 @@ parser.add_argument('--nosmooth', default=False, action='store_true',
 
 date = datetime.datetime.now()
 ts = date.strftime("%y%m%d-%H%M%S")
+ts2 = date.strftime("%y%m%d%H%M%S")
 
 checkpointName = re.search("(?<=checkpoints/).+?(?=.pth)", config.checkpoint)
 videoName = re.search("(?<=input\/).+?(?=\.)", config.video)
 videoName = videoName.group()
+
+audioName = re.search("(?<=input\/).+?(?=\.)", config.audio)
+audioName = audioName.group()
+
 if not checkpointName:
 	checkpointName = "checkpoint_name"
 else:
@@ -73,11 +79,19 @@ args = parser.parse_args()
 args.img_size = 96
 chinPad = config.chinPad or 10
 args.pads = [0, chinPad, 0, 0]
+
 filename = f"results/{ts}_{checkpointName}_{videoName}_pad-{config.chinPad}_nosmooth-{config.nosmooth}.mp4"
+newFileName = f"results/{audioName}_{videoName}_{ts2}_p-{config.chinPad}_ns-{config.nosmooth}.np4"
 
-print(colored(f"filename will be {filename}", "blue"))
+print(f"using video {videoName}")
+print(f"using audio {audioName}")
+print(f"using checkpoint {checkpointName}")
+print(f"pad: {config.chinPad}px")
+print(f"nosmooth: {config.nosmooth}")
+print()
+print(colored(f"filename will be {newFileName}", "blue"))
 
-args.outfile = filename
+args.outfile = newFileName
 
 if os.path.isfile(config.video) and config.video.split('.')[1] in ['jpg', 'png', 'jpeg']:
 	args.static = True

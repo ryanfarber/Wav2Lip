@@ -1,0 +1,22 @@
+{
+  "name": "wav2lip",
+  "version": "1.0.0",
+  "description": "This code is part of the paper: _A Lip Sync Expert Is All You Need for Speech to Lip Generation In the Wild_ published at ACM Multimedia 2020.",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanfarber/Wav2Lip.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanfarber/Wav2Lip/issues"
+  },
+  "homepage": "https://github.com/ryanfarber/Wav2Lip#readme",
+  "dependencies": {
+    "python-shell": "^3.0.0"
+  }
+}

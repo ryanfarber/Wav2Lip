@@ -1,0 +1,267 @@
+﻿platform: Linux 4.4.0-203-generic #235-Ubuntu SMP Tue Feb 2 02:49:08 UTC 2021 x86_64
+version: 2.7.2.1375
+[20210901 21:44:54.551] ZIP: Can't locate [version] in zip, error -100.
+[20210901 21:44:54.555] test sha1: AE5BD8EFEA5322C4D9986D06680A781392F9A642
+[20210901 21:44:54.555] test sha2: 630DCD2966C4336691125448BBB25B4FF412A49C732DB2C8ABC1B8581BD710DD
+[20210901 21:44:54.555] test aes: 0A940BB5416EF045F1C39458C653EA5A07FEEF74E1D5036E900EEE118E949293
+[20210901 21:44:54.555] DISKIO[0x0000563c51e1aac0]: Create diskio pool for drive with id 18446744073709551614, path: , type: 0, size: 1
+[20210901 21:44:54.555] WORKER[0x0000563c51e1ae70]: created
+[20210901 21:44:54.555] DISKIO[0x0000563c51e1aac0]: created
+[20210901 21:44:54.555] WORKER[0x0000563c51e1b950]: created
+[20210901 21:44:54.555] WORKER[0x0000563c51e1bc10]: created
+[20210901 21:44:54.555] DISK_WORKER[0x0000563c51e1ae70]: diskio thread start, drive_id = 18446744073709551614, priority = normal
+[20210901 21:44:54.555] WORKER[0x0000563c51e1be90]: created
+[20210901 21:44:54.555] WORKER[0x0000563c51e1c140]: created
+[20210901 21:44:54.555] WORKER[0x0000563c51e1b950]: thread start
+[20210901 21:44:54.555] WORKER[0x0000563c51e1bc10]: thread start
+[20210901 21:44:54.555] WORKER[0x0000563c51e1c3d0]: created
+[20210901 21:44:54.555] WORKER[0x0000563c51e1c140]: thread start
+[20210901 21:44:54.555] WORKER[0x0000563c51e1be90]: thread start
+[20210901 21:44:54.555] WORKER[0x0000563c51e1c690]: created
+[20210901 21:44:54.555] WORKER[0x0000563c51e1c3d0]: thread start
+[20210901 21:44:54.556] WORKER[0x0000563c51e1c950]: created
+[20210901 21:44:54.556] WORKER[0x0000563c51e1cc10]: created
+[20210901 21:44:54.556] WORKER[0x0000563c51e1c690]: thread start
+[20210901 21:44:54.556] WORKER[0x0000563c51e1c950]: thread start
+[20210901 21:44:54.556] WORKER[0x0000563c51e1cf70]: created
+[20210901 21:44:54.556] WORKER[0x0000563c51e1cc10]: thread start
+[20210901 21:44:54.556] WORKER[0x0000563c51e1cf70]: thread start
+[20210901 21:44:54.556] register completion queue with id 0
+[20210901 21:44:54.558] UDP: UDPSocketManager::QuotaData::SetLimit KBps=10485760 pps=6990506
+[20210901 21:44:54.558] UDP: UDPSocketManager::QuotaData::SetLimit KBps=10485760 pps=6990506
+[20210901 21:44:54.558] UDP: UDPSocketManager::QuotaData::SetLimit KBps=10485760 pps=6990506
+[20210901 21:44:54.558] UDP: UDPSocketManager::QuotaData::SetLimit KBps=10485760 pps=6990506
+[20210901 21:44:54.558] register completion queue with id 0
+[20210901 21:44:54.558] 20PeerListenConnection::listen[0x0000563c51e1f780][8] bound listening socket 8 to IP 0.0.0.0:40004
+[20210901 21:44:54.558] 20PeerListenConnection::listen[0x0000563c51e209d0][9] bound listening socket 9 to IP [::]:40004
+[20210901 21:44:54.558] UDP: UDPSocketManager::QuotaData::SetLimit KBps=10485760 pps=6990506
+[20210901 21:44:54.558] UDP: UDPSocketManager::QuotaData::SetLimit KBps=10485760 pps=6990506
+[20210901 21:44:54.558] UDP: UDP: bound listening socket 10 to IP 0.0.0.0:40004
+[20210901 21:44:54.558] UDP: UDP: bound listening socket 10 to IP 0.0.0.0:40004
+[20210901 21:44:54.558] UDP: UDP getsockopt(SO_SNDBUF) default=212992
+[20210901 21:44:54.558] UDP: UDP failed increasing SO_SNDBUF, requested=2097152 actual=425984
+[20210901 21:44:54.558] UDP: UDP failed increasing SO_SNDBUF, requested=1887437 actual=425984
+[20210901 21:44:54.558] UDP: UDP failed increasing SO_SNDBUF, requested=1677722 actual=425984
+[20210901 21:44:54.558] UDP: UDP failed increasing SO_SNDBUF, requested=1468007 actual=425984
+[20210901 21:44:54.558] UDP: UDP failed increasing SO_SNDBUF, requested=1258292 actual=425984
+[20210901 21:44:54.558] UDP: UDP failed increasing SO_SNDBUF, requested=1048577 actual=425984
+[20210901 21:44:54.558] UDP: UDP failed increasing SO_SNDBUF, requested=838862 actual=425984
+[20210901 21:44:54.558] UDP: UDP failed increasing SO_SNDBUF, requested=629147 actual=425984
+[20210901 21:44:54.558] UDP: UDP increased SO_SNDBUF to 425984
+[20210901 21:44:54.558] UDP: UDP getsockopt(SO_RCVBUF) default=212992
+[20210901 21:44:54.558] UDP: UDP failed increasing SO_RCVBUF, requested=20971520 actual=425984
+[20210901 21:44:54.558] UDP: UDP failed increasing SO_RCVBUF, requested=18874368 actual=425984
+[20210901 21:44:54.558] UDP: UDP failed increasing SO_RCVBUF, requested=16777216 actual=425984
+[20210901 21:44:54.558] UDP: UDP failed increasing SO_RCVBUF, requested=14680064 actual=425984
+[20210901 21:44:54.558] UDP: UDP failed increasing SO_RCVBUF, requested=12582912 actual=425984
+[20210901 21:44:54.558] UDP: UDP failed increasing SO_RCVBUF, requested=10485760 actual=425984
+[20210901 21:44:54.558] UDP: UDP failed increasing SO_RCVBUF, requested=8388608 actual=425984
+[20210901 21:44:54.558] UDP: UDP failed increasing SO_RCVBUF, requested=6291456 actual=425984
+[20210901 21:44:54.558] UDP: UDP failed increasing SO_RCVBUF, requested=4194304 actual=425984
+[20210901 21:44:54.558] UDP: UDP failed increasing SO_RCVBUF, requested=2097152 actual=425984
+[20210901 21:44:54.559] UDP: UDPSocketManager::QuotaData::SetLimit KBps=10485760 pps=6990506
+[20210901 21:44:54.559] UDP: UDPSocketManager::QuotaData::SetLimit KBps=10485760 pps=6990506
+[20210901 21:44:54.559] UDP: UDP: bound listening socket 13 to IP [::]:40004
+[20210901 21:44:54.559] UDP: UDP: bound listening socket 13 to IP [::]:40004
+[20210901 21:44:54.559] UDP: UDP getsockopt(SO_SNDBUF) default=212992
+[20210901 21:44:54.559] UDP: UDP failed increasing SO_SNDBUF, requested=2097152 actual=425984
+[20210901 21:44:54.559] UDP: UDP failed increasing SO_SNDBUF, requested=1887437 actual=425984
+[20210901 21:44:54.559] UDP: UDP failed increasing SO_SNDBUF, requested=1677722 actual=425984
+[20210901 21:44:54.559] UDP: UDP failed increasing SO_SNDBUF, requested=1468007 actual=425984
+[20210901 21:44:54.559] UDP: UDP failed increasing SO_SNDBUF, requested=1258292 actual=425984
+[20210901 21:44:54.559] UDP: UDP failed increasing SO_SNDBUF, requested=1048577 actual=425984
+[20210901 21:44:54.559] UDP: UDP failed increasing SO_SNDBUF, requested=838862 actual=425984
+[20210901 21:44:54.559] UDP: UDP failed increasing SO_SNDBUF, requested=629147 actual=425984
+[20210901 21:44:54.559] UDP: UDP increased SO_SNDBUF to 425984
+[20210901 21:44:54.559] UDP: UDP getsockopt(SO_RCVBUF) default=212992
+[20210901 21:44:54.559] UDP: UDP failed increasing SO_RCVBUF, requested=20971520 actual=425984
+[20210901 21:44:54.559] UDP: UDP failed increasing SO_RCVBUF, requested=18874368 actual=425984
+[20210901 21:44:54.559] UDP: UDP failed increasing SO_RCVBUF, requested=16777216 actual=425984
+[20210901 21:44:54.559] UDP: UDP failed increasing SO_RCVBUF, requested=14680064 actual=425984
+[20210901 21:44:54.559] UDP: UDP failed increasing SO_RCVBUF, requested=12582912 actual=425984
+[20210901 21:44:54.559] UDP: UDP failed increasing SO_RCVBUF, requested=10485760 actual=425984
+[20210901 21:44:54.559] UDP: UDP failed increasing SO_RCVBUF, requested=8388608 actual=425984
+[20210901 21:44:54.559] UDP: UDP failed increasing SO_RCVBUF, requested=6291456 actual=425984
+[20210901 21:44:54.559] UDP: UDP failed increasing SO_RCVBUF, requested=4194304 actual=425984
+[20210901 21:44:54.559] UDP: UDP failed increasing SO_RCVBUF, requested=2097152 actual=425984
+[20210901 21:44:54.559] 20HttpListenConnection::listen[0x0000563c51e26f80][16] bound listening socket 16 to IP 127.0.0.1:8888
+[20210901 21:44:54.561] register completion queue with id 0
+[20210901 21:44:54.561] register completion queue with id 1
+[20210901 21:44:54.561] register completion queue with id 1
+[20210901 21:44:54.568] IPv6 is installed
+[20210901 21:44:54.568] Unsupported or empty sync.dat file
+[20210901 21:44:54.569] My new PeerID: 20FF0F117F43DBC18B279DD429881A9D4C5CB671
+[20210901 21:44:54.569] LC: LoadLicenses: there is no pro license
+[20210901 21:44:54.569] HTTP[0x00007fe07c002e40][/e?i=2000&e=eyJhY3Rpb24iOiJpbnN0YWxsIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4Iiwic3NiIjowLCJzeXN2ZXIiOiJsaW51eCIsInRzIjoxNjMwNTQ3MDk0LCJ0eXBlIjoicmVndWxhciJ9]: sending GET http://i-2000.b-2-7-2.sync.bench.resilio.com/e?i=2000&e=eyJhY3Rpb24iOiJpbnN0YWxsIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4Iiwic3NiIjowLCJzeXN2ZXIiOiJsaW51eCIsInRzIjoxNjMwNTQ3MDk0LCJ0eXBlIjoicmVndWxhciJ9
+[20210901 21:44:54.570] HTTP[0x00007fe07c005c40][/e?i=2000&e=eyJhY3Rpb24iOiJ1cGdyYWRlIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4IiwicHYiOiIiLCJzc2IiOjAsInN5c3ZlciI6ImxpbnV4IiwidHMiOjE2MzA1NDcwOTR9]: sending GET http://i-2000.b-2-7-2.sync.bench.resilio.com/e?i=2000&e=eyJhY3Rpb24iOiJ1cGdyYWRlIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4IiwicHYiOiIiLCJzc2IiOjAsInN5c3ZlciI6ImxpbnV4IiwidHMiOjE2MzA1NDcwOTR9
+[20210901 21:44:54.570] HTTP[0x00007fe07c008480][/e?i=2000&e=eyJhY3Rpb24iOiJzdGFydHVwIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJkYXRhIjowLCJkZXUiOmZhbHNlLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJmaWwiOjAsImZvbCI6MCwiZm9saSI6eyJhIjp7fSwicyI6e319LCJmb2xzIjowLCJrZCI6IiIsImwiOjAsImxhIjowLCJsYW5nIjoiZW4iLCJsdCI6ImZyZWUiLCJvZGV1IjpmYWxzZSwicGVlcnMiOjAsInBsIjoibGludXgiLCJzZmYiOjAsInNzYiI6MCwic3NmYyI6MCwic3NmZCI6MCwic3NmcyI6MCwic3lzdmVyIjoibGludXgiLCJ0cmYiOnsiciI6e30sInMiOnt9fSwidHJmYyI6MCwidHMiOjE2MzA1NDcwOTQsInVzZXJzIjowfQ==]: sending GET http://i-2000.b-2-7-2.sync.bench.resilio.com/e?i=2000&e=eyJhY3Rpb24iOiJzdGFydHVwIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJkYXRhIjowLCJkZXUiOmZhbHNlLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJmaWwiOjAsImZvbCI6MCwiZm9saSI6eyJhIjp7fSwicyI6e319LCJmb2xzIjowLCJrZCI6IiIsImwiOjAsImxhIjowLCJsYW5nIjoiZW4iLCJsdCI6ImZyZWUiLCJvZGV1IjpmYWxzZSwicGVlcnMiOjAsInBsIjoibGludXgiLCJzZmYiOjAsInNzYiI6MCwic3NmYyI6MCwic3NmZCI6MCwic3NmcyI6MCwic3lzdmVyIjoibGludXgiLCJ0cmYiOnsiciI6e30sInMiOnt9fSwidHJmYyI6MCwidHMiOjE2MzA1NDcwOTQsInVzZXJzIjowfQ==
+[20210901 21:44:54.570] Scheduler: Apply global rule, download limit: -1, upload limit: -1
+[20210901 21:44:54.570] CoreState: Total memory: 31615426560, used by Sync: 21270528, percentage used: 0.07
+[20210901 21:44:54.570] CoreState: Cpu load: 0
+[20210901 21:44:54.570] CoreState: Process cpu load: 0
+[20210901 21:44:54.570] message thread start
+[20210901 21:44:54.571] SYS_RES: drive "/", id: 64512, capacity: 49992478720, free_space: 35312992256
+[20210901 21:44:54.669] HTTP[0x00007fe07c002e40][/e?i=2000&e=eyJhY3Rpb24iOiJpbnN0YWxsIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4Iiwic3NiIjowLCJzeXN2ZXIiOiJsaW51eCIsInRzIjoxNjMwNTQ3MDk0LCJ0eXBlIjoicmVndWxhciJ9]: GET /e?i=2000&e=eyJhY3Rpb24iOiJpbnN0YWxsIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4Iiwic3NiIjowLCJzeXN2ZXIiOiJsaW51eCIsInRzIjoxNjMwNTQ3MDk0LCJ0eXBlIjoicmVndWxhciJ9 HTTP/1.1
+[20210901 21:44:54.669] HTTP[0x00007fe07c002e40][/e?i=2000&e=eyJhY3Rpb24iOiJpbnN0YWxsIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4Iiwic3NiIjowLCJzeXN2ZXIiOiJsaW51eCIsInRzIjoxNjMwNTQ3MDk0LCJ0eXBlIjoicmVndWxhciJ9]: Host: i-2000.b-2-7-2.sync.bench.resilio.com
+[20210901 21:44:54.669] HTTP[0x00007fe07c002e40][/e?i=2000&e=eyJhY3Rpb24iOiJpbnN0YWxsIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4Iiwic3NiIjowLCJzeXN2ZXIiOiJsaW51eCIsInRzIjoxNjMwNTQ3MDk0LCJ0eXBlIjoicmVndWxhciJ9]: User-Agent: Resilio Sync
+[20210901 21:44:54.669] HTTP[0x00007fe07c002e40][/e?i=2000&e=eyJhY3Rpb24iOiJpbnN0YWxsIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4Iiwic3NiIjowLCJzeXN2ZXIiOiJsaW51eCIsInRzIjoxNjMwNTQ3MDk0LCJ0eXBlIjoicmVndWxhciJ9]: Accept-Encoding: gzip
+[20210901 21:44:54.669] HTTP[0x00007fe07c002e40][/e?i=2000&e=eyJhY3Rpb24iOiJpbnN0YWxsIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4Iiwic3NiIjowLCJzeXN2ZXIiOiJsaW51eCIsInRzIjoxNjMwNTQ3MDk0LCJ0eXBlIjoicmVndWxhciJ9]: Connection: close
+[20210901 21:44:54.669] HTTP[0x00007fe07c002e40][/e?i=2000&e=eyJhY3Rpb24iOiJpbnN0YWxsIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4Iiwic3NiIjowLCJzeXN2ZXIiOiJsaW51eCIsInRzIjoxNjMwNTQ3MDk0LCJ0eXBlIjoicmVndWxhciJ9]: 
+[20210901 21:44:54.742] HTTP[0x00007fe07c005c40][/e?i=2000&e=eyJhY3Rpb24iOiJ1cGdyYWRlIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4IiwicHYiOiIiLCJzc2IiOjAsInN5c3ZlciI6ImxpbnV4IiwidHMiOjE2MzA1NDcwOTR9]: GET /e?i=2000&e=eyJhY3Rpb24iOiJ1cGdyYWRlIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4IiwicHYiOiIiLCJzc2IiOjAsInN5c3ZlciI6ImxpbnV4IiwidHMiOjE2MzA1NDcwOTR9 HTTP/1.1
+[20210901 21:44:54.742] HTTP[0x00007fe07c005c40][/e?i=2000&e=eyJhY3Rpb24iOiJ1cGdyYWRlIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4IiwicHYiOiIiLCJzc2IiOjAsInN5c3ZlciI6ImxpbnV4IiwidHMiOjE2MzA1NDcwOTR9]: Host: i-2000.b-2-7-2.sync.bench.resilio.com
+[20210901 21:44:54.742] HTTP[0x00007fe07c005c40][/e?i=2000&e=eyJhY3Rpb24iOiJ1cGdyYWRlIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4IiwicHYiOiIiLCJzc2IiOjAsInN5c3ZlciI6ImxpbnV4IiwidHMiOjE2MzA1NDcwOTR9]: User-Agent: Resilio Sync
+[20210901 21:44:54.742] HTTP[0x00007fe07c005c40][/e?i=2000&e=eyJhY3Rpb24iOiJ1cGdyYWRlIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4IiwicHYiOiIiLCJzc2IiOjAsInN5c3ZlciI6ImxpbnV4IiwidHMiOjE2MzA1NDcwOTR9]: Accept-Encoding: gzip
+[20210901 21:44:54.742] HTTP[0x00007fe07c005c40][/e?i=2000&e=eyJhY3Rpb24iOiJ1cGdyYWRlIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4IiwicHYiOiIiLCJzc2IiOjAsInN5c3ZlciI6ImxpbnV4IiwidHMiOjE2MzA1NDcwOTR9]: Connection: close
+[20210901 21:44:54.742] HTTP[0x00007fe07c005c40][/e?i=2000&e=eyJhY3Rpb24iOiJ1cGdyYWRlIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4IiwicHYiOiIiLCJzc2IiOjAsInN5c3ZlciI6ImxpbnV4IiwidHMiOjE2MzA1NDcwOTR9]: 
+[20210901 21:44:54.767] HTTP[0x00007fe07c008480][/e?i=2000&e=eyJhY3Rpb24iOiJzdGFydHVwIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJkYXRhIjowLCJkZXUiOmZhbHNlLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJmaWwiOjAsImZvbCI6MCwiZm9saSI6eyJhIjp7fSwicyI6e319LCJmb2xzIjowLCJrZCI6IiIsImwiOjAsImxhIjowLCJsYW5nIjoiZW4iLCJsdCI6ImZyZWUiLCJvZGV1IjpmYWxzZSwicGVlcnMiOjAsInBsIjoibGludXgiLCJzZmYiOjAsInNzYiI6MCwic3NmYyI6MCwic3NmZCI6MCwic3NmcyI6MCwic3lzdmVyIjoibGludXgiLCJ0cmYiOnsiciI6e30sInMiOnt9fSwidHJmYyI6MCwidHMiOjE2MzA1NDcwOTQsInVzZXJzIjowfQ==]: GET /e?i=2000&e=eyJhY3Rpb24iOiJzdGFydHVwIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJkYXRhIjowLCJkZXUiOmZhbHNlLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJmaWwiOjAsImZvbCI6MCwiZm9saSI6eyJhIjp7fSwicyI6e319LCJmb2xzIjowLCJrZCI6IiIsImwiOjAsImxhIjowLCJsYW5nIjoiZW4iLCJsdCI6ImZyZWUiLCJvZGV1IjpmYWxzZSwicGVlcnMiOjAsInBsIjoibGludXgiLCJzZmYiOjAsInNzYiI6MCwic3NmYyI6MCwic3NmZCI6MCwic3NmcyI6MCwic3lzdmVyIjoibGludXgiLCJ0cmYiOnsiciI6e30sInMiOnt9fSwidHJmYyI6MCwidHMiOjE2MzA1NDcwOTQsInVzZXJzIjowfQ== HTTP/1.1
+[20210901 21:44:54.767] HTTP[0x00007fe07c008480][/e?i=2000&e=eyJhY3Rpb24iOiJzdGFydHVwIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJkYXRhIjowLCJkZXUiOmZhbHNlLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJmaWwiOjAsImZvbCI6MCwiZm9saSI6eyJhIjp7fSwicyI6e319LCJmb2xzIjowLCJrZCI6IiIsImwiOjAsImxhIjowLCJsYW5nIjoiZW4iLCJsdCI6ImZyZWUiLCJvZGV1IjpmYWxzZSwicGVlcnMiOjAsInBsIjoibGludXgiLCJzZmYiOjAsInNzYiI6MCwic3NmYyI6MCwic3NmZCI6MCwic3NmcyI6MCwic3lzdmVyIjoibGludXgiLCJ0cmYiOnsiciI6e30sInMiOnt9fSwidHJmYyI6MCwidHMiOjE2MzA1NDcwOTQsInVzZXJzIjowfQ==]: Host: i-2000.b-2-7-2.sync.bench.resilio.com
+[20210901 21:44:54.767] HTTP[0x00007fe07c008480][/e?i=2000&e=eyJhY3Rpb24iOiJzdGFydHVwIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJkYXRhIjowLCJkZXUiOmZhbHNlLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJmaWwiOjAsImZvbCI6MCwiZm9saSI6eyJhIjp7fSwicyI6e319LCJmb2xzIjowLCJrZCI6IiIsImwiOjAsImxhIjowLCJsYW5nIjoiZW4iLCJsdCI6ImZyZWUiLCJvZGV1IjpmYWxzZSwicGVlcnMiOjAsInBsIjoibGludXgiLCJzZmYiOjAsInNzYiI6MCwic3NmYyI6MCwic3NmZCI6MCwic3NmcyI6MCwic3lzdmVyIjoibGludXgiLCJ0cmYiOnsiciI6e30sInMiOnt9fSwidHJmYyI6MCwidHMiOjE2MzA1NDcwOTQsInVzZXJzIjowfQ==]: User-Agent: Resilio Sync
+[20210901 21:44:54.767] HTTP[0x00007fe07c008480][/e?i=2000&e=eyJhY3Rpb24iOiJzdGFydHVwIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJkYXRhIjowLCJkZXUiOmZhbHNlLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJmaWwiOjAsImZvbCI6MCwiZm9saSI6eyJhIjp7fSwicyI6e319LCJmb2xzIjowLCJrZCI6IiIsImwiOjAsImxhIjowLCJsYW5nIjoiZW4iLCJsdCI6ImZyZWUiLCJvZGV1IjpmYWxzZSwicGVlcnMiOjAsInBsIjoibGludXgiLCJzZmYiOjAsInNzYiI6MCwic3NmYyI6MCwic3NmZCI6MCwic3NmcyI6MCwic3lzdmVyIjoibGludXgiLCJ0cmYiOnsiciI6e30sInMiOnt9fSwidHJmYyI6MCwidHMiOjE2MzA1NDcwOTQsInVzZXJzIjowfQ==]: Accept-Encoding: gzip
+[20210901 21:44:54.767] HTTP[0x00007fe07c008480][/e?i=2000&e=eyJhY3Rpb24iOiJzdGFydHVwIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJkYXRhIjowLCJkZXUiOmZhbHNlLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJmaWwiOjAsImZvbCI6MCwiZm9saSI6eyJhIjp7fSwicyI6e319LCJmb2xzIjowLCJrZCI6IiIsImwiOjAsImxhIjowLCJsYW5nIjoiZW4iLCJsdCI6ImZyZWUiLCJvZGV1IjpmYWxzZSwicGVlcnMiOjAsInBsIjoibGludXgiLCJzZmYiOjAsInNzYiI6MCwic3NmYyI6MCwic3NmZCI6MCwic3NmcyI6MCwic3lzdmVyIjoibGludXgiLCJ0cmYiOnsiciI6e30sInMiOnt9fSwidHJmYyI6MCwidHMiOjE2MzA1NDcwOTQsInVzZXJzIjowfQ==]: Connection: close
+[20210901 21:44:54.767] HTTP[0x00007fe07c008480][/e?i=2000&e=eyJhY3Rpb24iOiJzdGFydHVwIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJkYXRhIjowLCJkZXUiOmZhbHNlLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJmaWwiOjAsImZvbCI6MCwiZm9saSI6eyJhIjp7fSwicyI6e319LCJmb2xzIjowLCJrZCI6IiIsImwiOjAsImxhIjowLCJsYW5nIjoiZW4iLCJsdCI6ImZyZWUiLCJvZGV1IjpmYWxzZSwicGVlcnMiOjAsInBsIjoibGludXgiLCJzZmYiOjAsInNzYiI6MCwic3NmYyI6MCwic3NmZCI6MCwic3NmcyI6MCwic3lzdmVyIjoibGludXgiLCJ0cmYiOnsiciI6e30sInMiOnt9fSwidHJmYyI6MCwidHMiOjE2MzA1NDcwOTQsInVzZXJzIjowfQ==]: 
+[20210901 21:44:54.769] HTTP[0x00007fe07c002e40][/e?i=2000&e=eyJhY3Rpb24iOiJpbnN0YWxsIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4Iiwic3NiIjowLCJzeXN2ZXIiOiJsaW51eCIsInRzIjoxNjMwNTQ3MDk0LCJ0eXBlIjoicmVndWxhciJ9]: RESP_CODE: 301
+[20210901 21:44:54.769] HTTP[0x00007fe07c002e40][/e?i=2000&e=eyJhY3Rpb24iOiJpbnN0YWxsIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4Iiwic3NiIjowLCJzeXN2ZXIiOiJsaW51eCIsInRzIjoxNjMwNTQ3MDk0LCJ0eXBlIjoicmVndWxhciJ9]: RESP_HEADER: Server = "nginx"
+[20210901 21:44:54.769] HTTP[0x00007fe07c002e40][/e?i=2000&e=eyJhY3Rpb24iOiJpbnN0YWxsIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4Iiwic3NiIjowLCJzeXN2ZXIiOiJsaW51eCIsInRzIjoxNjMwNTQ3MDk0LCJ0eXBlIjoicmVndWxhciJ9]: RESP_HEADER: Date = "Thu, 02 Sep 2021 01:44:54 GMT"
+[20210901 21:44:54.769] HTTP[0x00007fe07c002e40][/e?i=2000&e=eyJhY3Rpb24iOiJpbnN0YWxsIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4Iiwic3NiIjowLCJzeXN2ZXIiOiJsaW51eCIsInRzIjoxNjMwNTQ3MDk0LCJ0eXBlIjoicmVndWxhciJ9]: RESP_HEADER: Content-Type = "text/html"
+[20210901 21:44:54.769] HTTP[0x00007fe07c002e40][/e?i=2000&e=eyJhY3Rpb24iOiJpbnN0YWxsIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4Iiwic3NiIjowLCJzeXN2ZXIiOiJsaW51eCIsInRzIjoxNjMwNTQ3MDk0LCJ0eXBlIjoicmVndWxhciJ9]: RESP_HEADER: Content-Length = "162"
+[20210901 21:44:54.769] HTTP[0x00007fe07c002e40][/e?i=2000&e=eyJhY3Rpb24iOiJpbnN0YWxsIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4Iiwic3NiIjowLCJzeXN2ZXIiOiJsaW51eCIsInRzIjoxNjMwNTQ3MDk0LCJ0eXBlIjoicmVndWxhciJ9]: RESP_HEADER: Connection = "close"
+[20210901 21:44:54.769] HTTP[0x00007fe07c002e40][/e?i=2000&e=eyJhY3Rpb24iOiJpbnN0YWxsIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4Iiwic3NiIjowLCJzeXN2ZXIiOiJsaW51eCIsInRzIjoxNjMwNTQ3MDk0LCJ0eXBlIjoicmVndWxhciJ9]: RESP_HEADER: Location = "https://i-2000.b-2-7-2.sync.bench.resilio.com/e?i=2000&e=eyJhY3Rpb24iOiJpbnN0YWxsIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4Iiwic3NiIjowLCJzeXN2ZXIiOiJsaW51eCIsInRzIjoxNjMwNTQ3MDk0LCJ0eXBlIjoicmVndWxhciJ9"
+[20210901 21:44:54.769] HTTP[0x00007fe07c002e40][/e?i=2000&e=eyJhY3Rpb24iOiJpbnN0YWxsIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4Iiwic3NiIjowLCJzeXN2ZXIiOiJsaW51eCIsInRzIjoxNjMwNTQ3MDk0LCJ0eXBlIjoicmVndWxhciJ9]: RESP_BODY: {...} size 162
+[20210901 21:44:54.769] HTTP[0x00007fe07c002e40][/e?i=2000&e=eyJhY3Rpb24iOiJpbnN0YWxsIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4Iiwic3NiIjowLCJzeXN2ZXIiOiJsaW51eCIsInRzIjoxNjMwNTQ3MDk0LCJ0eXBlIjoicmVndWxhciJ9]: closing
+[20210901 21:44:54.824] HTTP[0x00007fe07c002e40][/e?i=2000&e=eyJhY3Rpb24iOiJpbnN0YWxsIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4Iiwic3NiIjowLCJzeXN2ZXIiOiJsaW51eCIsInRzIjoxNjMwNTQ3MDk0LCJ0eXBlIjoicmVndWxhciJ9]: destroying
+[20210901 21:44:54.841] HTTP[0x00007fe07c005c40][/e?i=2000&e=eyJhY3Rpb24iOiJ1cGdyYWRlIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4IiwicHYiOiIiLCJzc2IiOjAsInN5c3ZlciI6ImxpbnV4IiwidHMiOjE2MzA1NDcwOTR9]: RESP_CODE: 301
+[20210901 21:44:54.841] HTTP[0x00007fe07c005c40][/e?i=2000&e=eyJhY3Rpb24iOiJ1cGdyYWRlIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4IiwicHYiOiIiLCJzc2IiOjAsInN5c3ZlciI6ImxpbnV4IiwidHMiOjE2MzA1NDcwOTR9]: RESP_HEADER: Server = "nginx"
+[20210901 21:44:54.841] HTTP[0x00007fe07c005c40][/e?i=2000&e=eyJhY3Rpb24iOiJ1cGdyYWRlIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4IiwicHYiOiIiLCJzc2IiOjAsInN5c3ZlciI6ImxpbnV4IiwidHMiOjE2MzA1NDcwOTR9]: RESP_HEADER: Date = "Thu, 02 Sep 2021 01:44:54 GMT"
+[20210901 21:44:54.841] HTTP[0x00007fe07c005c40][/e?i=2000&e=eyJhY3Rpb24iOiJ1cGdyYWRlIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4IiwicHYiOiIiLCJzc2IiOjAsInN5c3ZlciI6ImxpbnV4IiwidHMiOjE2MzA1NDcwOTR9]: RESP_HEADER: Content-Type = "text/html"
+[20210901 21:44:54.841] HTTP[0x00007fe07c005c40][/e?i=2000&e=eyJhY3Rpb24iOiJ1cGdyYWRlIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4IiwicHYiOiIiLCJzc2IiOjAsInN5c3ZlciI6ImxpbnV4IiwidHMiOjE2MzA1NDcwOTR9]: RESP_HEADER: Content-Length = "162"
+[20210901 21:44:54.841] HTTP[0x00007fe07c005c40][/e?i=2000&e=eyJhY3Rpb24iOiJ1cGdyYWRlIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4IiwicHYiOiIiLCJzc2IiOjAsInN5c3ZlciI6ImxpbnV4IiwidHMiOjE2MzA1NDcwOTR9]: RESP_HEADER: Connection = "close"
+[20210901 21:44:54.841] HTTP[0x00007fe07c005c40][/e?i=2000&e=eyJhY3Rpb24iOiJ1cGdyYWRlIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4IiwicHYiOiIiLCJzc2IiOjAsInN5c3ZlciI6ImxpbnV4IiwidHMiOjE2MzA1NDcwOTR9]: RESP_HEADER: Location = "https://i-2000.b-2-7-2.sync.bench.resilio.com/e?i=2000&e=eyJhY3Rpb24iOiJ1cGdyYWRlIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4IiwicHYiOiIiLCJzc2IiOjAsInN5c3ZlciI6ImxpbnV4IiwidHMiOjE2MzA1NDcwOTR9"
+[20210901 21:44:54.841] HTTP[0x00007fe07c005c40][/e?i=2000&e=eyJhY3Rpb24iOiJ1cGdyYWRlIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4IiwicHYiOiIiLCJzc2IiOjAsInN5c3ZlciI6ImxpbnV4IiwidHMiOjE2MzA1NDcwOTR9]: RESP_BODY: {...} size 162
+[20210901 21:44:54.841] HTTP[0x00007fe07c005c40][/e?i=2000&e=eyJhY3Rpb24iOiJ1cGdyYWRlIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4IiwicHYiOiIiLCJzc2IiOjAsInN5c3ZlciI6ImxpbnV4IiwidHMiOjE2MzA1NDcwOTR9]: closing
+[20210901 21:44:54.842] HTTP[0x00007fe07c008480][/e?i=2000&e=eyJhY3Rpb24iOiJzdGFydHVwIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJkYXRhIjowLCJkZXUiOmZhbHNlLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJmaWwiOjAsImZvbCI6MCwiZm9saSI6eyJhIjp7fSwicyI6e319LCJmb2xzIjowLCJrZCI6IiIsImwiOjAsImxhIjowLCJsYW5nIjoiZW4iLCJsdCI6ImZyZWUiLCJvZGV1IjpmYWxzZSwicGVlcnMiOjAsInBsIjoibGludXgiLCJzZmYiOjAsInNzYiI6MCwic3NmYyI6MCwic3NmZCI6MCwic3NmcyI6MCwic3lzdmVyIjoibGludXgiLCJ0cmYiOnsiciI6e30sInMiOnt9fSwidHJmYyI6MCwidHMiOjE2MzA1NDcwOTQsInVzZXJzIjowfQ==]: RESP_CODE: 301
+[20210901 21:44:54.842] HTTP[0x00007fe07c008480][/e?i=2000&e=eyJhY3Rpb24iOiJzdGFydHVwIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJkYXRhIjowLCJkZXUiOmZhbHNlLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJmaWwiOjAsImZvbCI6MCwiZm9saSI6eyJhIjp7fSwicyI6e319LCJmb2xzIjowLCJrZCI6IiIsImwiOjAsImxhIjowLCJsYW5nIjoiZW4iLCJsdCI6ImZyZWUiLCJvZGV1IjpmYWxzZSwicGVlcnMiOjAsInBsIjoibGludXgiLCJzZmYiOjAsInNzYiI6MCwic3NmYyI6MCwic3NmZCI6MCwic3NmcyI6MCwic3lzdmVyIjoibGludXgiLCJ0cmYiOnsiciI6e30sInMiOnt9fSwidHJmYyI6MCwidHMiOjE2MzA1NDcwOTQsInVzZXJzIjowfQ==]: RESP_HEADER: Server = "nginx"
+[20210901 21:44:54.842] HTTP[0x00007fe07c008480][/e?i=2000&e=eyJhY3Rpb24iOiJzdGFydHVwIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJkYXRhIjowLCJkZXUiOmZhbHNlLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJmaWwiOjAsImZvbCI6MCwiZm9saSI6eyJhIjp7fSwicyI6e319LCJmb2xzIjowLCJrZCI6IiIsImwiOjAsImxhIjowLCJsYW5nIjoiZW4iLCJsdCI6ImZyZWUiLCJvZGV1IjpmYWxzZSwicGVlcnMiOjAsInBsIjoibGludXgiLCJzZmYiOjAsInNzYiI6MCwic3NmYyI6MCwic3NmZCI6MCwic3NmcyI6MCwic3lzdmVyIjoibGludXgiLCJ0cmYiOnsiciI6e30sInMiOnt9fSwidHJmYyI6MCwidHMiOjE2MzA1NDcwOTQsInVzZXJzIjowfQ==]: RESP_HEADER: Date = "Thu, 02 Sep 2021 01:44:54 GMT"
+[20210901 21:44:54.842] HTTP[0x00007fe07c008480][/e?i=2000&e=eyJhY3Rpb24iOiJzdGFydHVwIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJkYXRhIjowLCJkZXUiOmZhbHNlLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJmaWwiOjAsImZvbCI6MCwiZm9saSI6eyJhIjp7fSwicyI6e319LCJmb2xzIjowLCJrZCI6IiIsImwiOjAsImxhIjowLCJsYW5nIjoiZW4iLCJsdCI6ImZyZWUiLCJvZGV1IjpmYWxzZSwicGVlcnMiOjAsInBsIjoibGludXgiLCJzZmYiOjAsInNzYiI6MCwic3NmYyI6MCwic3NmZCI6MCwic3NmcyI6MCwic3lzdmVyIjoibGludXgiLCJ0cmYiOnsiciI6e30sInMiOnt9fSwidHJmYyI6MCwidHMiOjE2MzA1NDcwOTQsInVzZXJzIjowfQ==]: RESP_HEADER: Content-Type = "text/html"
+[20210901 21:44:54.842] HTTP[0x00007fe07c008480][/e?i=2000&e=eyJhY3Rpb24iOiJzdGFydHVwIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJkYXRhIjowLCJkZXUiOmZhbHNlLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJmaWwiOjAsImZvbCI6MCwiZm9saSI6eyJhIjp7fSwicyI6e319LCJmb2xzIjowLCJrZCI6IiIsImwiOjAsImxhIjowLCJsYW5nIjoiZW4iLCJsdCI6ImZyZWUiLCJvZGV1IjpmYWxzZSwicGVlcnMiOjAsInBsIjoibGludXgiLCJzZmYiOjAsInNzYiI6MCwic3NmYyI6MCwic3NmZCI6MCwic3NmcyI6MCwic3lzdmVyIjoibGludXgiLCJ0cmYiOnsiciI6e30sInMiOnt9fSwidHJmYyI6MCwidHMiOjE2MzA1NDcwOTQsInVzZXJzIjowfQ==]: RESP_HEADER: Content-Length = "162"
+[20210901 21:44:54.842] HTTP[0x00007fe07c008480][/e?i=2000&e=eyJhY3Rpb24iOiJzdGFydHVwIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJkYXRhIjowLCJkZXUiOmZhbHNlLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJmaWwiOjAsImZvbCI6MCwiZm9saSI6eyJhIjp7fSwicyI6e319LCJmb2xzIjowLCJrZCI6IiIsImwiOjAsImxhIjowLCJsYW5nIjoiZW4iLCJsdCI6ImZyZWUiLCJvZGV1IjpmYWxzZSwicGVlcnMiOjAsInBsIjoibGludXgiLCJzZmYiOjAsInNzYiI6MCwic3NmYyI6MCwic3NmZCI6MCwic3NmcyI6MCwic3lzdmVyIjoibGludXgiLCJ0cmYiOnsiciI6e30sInMiOnt9fSwidHJmYyI6MCwidHMiOjE2MzA1NDcwOTQsInVzZXJzIjowfQ==]: RESP_HEADER: Connection = "close"
+[20210901 21:44:54.842] HTTP[0x00007fe07c008480][/e?i=2000&e=eyJhY3Rpb24iOiJzdGFydHVwIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJkYXRhIjowLCJkZXUiOmZhbHNlLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJmaWwiOjAsImZvbCI6MCwiZm9saSI6eyJhIjp7fSwicyI6e319LCJmb2xzIjowLCJrZCI6IiIsImwiOjAsImxhIjowLCJsYW5nIjoiZW4iLCJsdCI6ImZyZWUiLCJvZGV1IjpmYWxzZSwicGVlcnMiOjAsInBsIjoibGludXgiLCJzZmYiOjAsInNzYiI6MCwic3NmYyI6MCwic3NmZCI6MCwic3NmcyI6MCwic3lzdmVyIjoibGludXgiLCJ0cmYiOnsiciI6e30sInMiOnt9fSwidHJmYyI6MCwidHMiOjE2MzA1NDcwOTQsInVzZXJzIjowfQ==]: RESP_HEADER: Location = "https://i-2000.b-2-7-2.sync.bench.resilio.com/e?i=2000&e=eyJhY3Rpb24iOiJzdGFydHVwIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJkYXRhIjowLCJkZXUiOmZhbHNlLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJmaWwiOjAsImZvbCI6MCwiZm9saSI6eyJhIjp7fSwicyI6e319LCJmb2xzIjowLCJrZCI6IiIsImwiOjAsImxhIjowLCJsYW5nIjoiZW4iLCJsdCI6ImZyZWUiLCJvZGV1IjpmYWxzZSwicGVlcnMiOjAsInBsIjoibGludXgiLCJzZmYiOjAsInNzYiI6MCwic3NmYyI6MCwic3NmZCI6MCwic3NmcyI6MCwic3lzdmVyIjoibGludXgiLCJ0cmYiOnsiciI6e30sInMiOnt9fSwidHJmYyI6MCwidHMiOjE2MzA1NDcwOTQsInVzZXJzIjowfQ=="
+[20210901 21:44:54.842] HTTP[0x00007fe07c008480][/e?i=2000&e=eyJhY3Rpb24iOiJzdGFydHVwIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJkYXRhIjowLCJkZXUiOmZhbHNlLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJmaWwiOjAsImZvbCI6MCwiZm9saSI6eyJhIjp7fSwicyI6e319LCJmb2xzIjowLCJrZCI6IiIsImwiOjAsImxhIjowLCJsYW5nIjoiZW4iLCJsdCI6ImZyZWUiLCJvZGV1IjpmYWxzZSwicGVlcnMiOjAsInBsIjoibGludXgiLCJzZmYiOjAsInNzYiI6MCwic3NmYyI6MCwic3NmZCI6MCwic3NmcyI6MCwic3lzdmVyIjoibGludXgiLCJ0cmYiOnsiciI6e30sInMiOnt9fSwidHJmYyI6MCwidHMiOjE2MzA1NDcwOTQsInVzZXJzIjowfQ==]: RESP_BODY: {...} size 162
+[20210901 21:44:54.842] HTTP[0x00007fe07c008480][/e?i=2000&e=eyJhY3Rpb24iOiJzdGFydHVwIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJkYXRhIjowLCJkZXUiOmZhbHNlLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJmaWwiOjAsImZvbCI6MCwiZm9saSI6eyJhIjp7fSwicyI6e319LCJmb2xzIjowLCJrZCI6IiIsImwiOjAsImxhIjowLCJsYW5nIjoiZW4iLCJsdCI6ImZyZWUiLCJvZGV1IjpmYWxzZSwicGVlcnMiOjAsInBsIjoibGludXgiLCJzZmYiOjAsInNzYiI6MCwic3NmYyI6MCwic3NmZCI6MCwic3NmcyI6MCwic3lzdmVyIjoibGludXgiLCJ0cmYiOnsiciI6e30sInMiOnt9fSwidHJmYyI6MCwidHMiOjE2MzA1NDcwOTQsInVzZXJzIjowfQ==]: closing
+[20210901 21:44:54.874] HTTP[0x00007fe07c005c40][/e?i=2000&e=eyJhY3Rpb24iOiJ1cGdyYWRlIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJwbCI6ImxpbnV4IiwicHYiOiIiLCJzc2IiOjAsInN5c3ZlciI6ImxpbnV4IiwidHMiOjE2MzA1NDcwOTR9]: destroying
+[20210901 21:44:54.899] HTTP[0x00007fe07c008480][/e?i=2000&e=eyJhY3Rpb24iOiJzdGFydHVwIiwiYiI6InN5bmMiLCJjYyI6MCwiY2lkIjoieElhcFpxcGdpbVE5YXVZbiIsImN2IjoiMi43LjIiLCJkYXRhIjowLCJkZXUiOmZhbHNlLCJldmVudE5hbWUiOiJzeW5jQmFzaWMiLCJmaWwiOjAsImZvbCI6MCwiZm9saSI6eyJhIjp7fSwicyI6e319LCJmb2xzIjowLCJrZCI6IiIsImwiOjAsImxhIjowLCJsYW5nIjoiZW4iLCJsdCI6ImZyZWUiLCJvZGV1IjpmYWxzZSwicGVlcnMiOjAsInBsIjoibGludXgiLCJzZmYiOjAsInNzYiI6MCwic3NmYyI6MCwic3NmZCI6MCwic3NmcyI6MCwic3lzdmVyIjoibGludXgiLCJ0cmYiOnsiciI6e30sInMiOnt9fSwidHJmYyI6MCwidHMiOjE2MzA1NDcwOTQsInVzZXJzIjowfQ==]: destroying
+[20210901 21:44:55.398] Debug log mask has been set to FFFFFFFF
+[20210901 21:44:55.398] Features mask has been set to 0
+[20210901 21:45:06.578] NAT-PMP: Unable to map port with NAT-PMP.
+[20210901 21:45:25.582] HTTP[0x0000563c51e47a40][/cfu.php?arch=x86_64&b=sync&lang=en&pl=linux&rn=70&sysver=linux&v=34013186]: sending GET https://update.resilio.com/cfu.php?arch=x86_64&b=sync&lang=en&pl=linux&rn=70&sysver=linux&v=34013186
+[20210901 21:45:25.733] HTTP[0x0000563c51e47a40][/cfu.php?arch=x86_64&b=sync&lang=en&pl=linux&rn=70&sysver=linux&v=34013186]: GET /cfu.php?arch=x86_64&b=sync&lang=en&pl=linux&rn=70&sysver=linux&v=34013186 HTTP/1.1
+[20210901 21:45:25.733] HTTP[0x0000563c51e47a40][/cfu.php?arch=x86_64&b=sync&lang=en&pl=linux&rn=70&sysver=linux&v=34013186]: Host: update.resilio.com
+[20210901 21:45:25.733] HTTP[0x0000563c51e47a40][/cfu.php?arch=x86_64&b=sync&lang=en&pl=linux&rn=70&sysver=linux&v=34013186]: User-Agent: Resilio Sync
+[20210901 21:45:25.733] HTTP[0x0000563c51e47a40][/cfu.php?arch=x86_64&b=sync&lang=en&pl=linux&rn=70&sysver=linux&v=34013186]: Accept-Encoding: gzip
+[20210901 21:45:25.733] HTTP[0x0000563c51e47a40][/cfu.php?arch=x86_64&b=sync&lang=en&pl=linux&rn=70&sysver=linux&v=34013186]: Connection: close
+[20210901 21:45:25.733] HTTP[0x0000563c51e47a40][/cfu.php?arch=x86_64&b=sync&lang=en&pl=linux&rn=70&sysver=linux&v=34013186]: 
+[20210901 21:45:25.931] TLS[0x00007fe0cf4216a0]: cipher: ECDHE-RSA-AES128-GCM-SHA256, version: TLSv1.2
+[20210901 21:45:30.073] HTTP[0x0000563c51e47a40][/cfu.php?arch=x86_64&b=sync&lang=en&pl=linux&rn=70&sysver=linux&v=34013186]: RESP_CODE: 200
+[20210901 21:45:30.074] HTTP[0x0000563c51e47a40][/cfu.php?arch=x86_64&b=sync&lang=en&pl=linux&rn=70&sysver=linux&v=34013186]: RESP_HEADER: Content-Encoding = "gzip"
+[20210901 21:45:30.074] HTTP[0x0000563c51e47a40][/cfu.php?arch=x86_64&b=sync&lang=en&pl=linux&rn=70&sysver=linux&v=34013186]: RESP_HEADER: Content-Security-Policy = "default-src 'self'; style-src 'unsafe-inline'; img-src data:"
+[20210901 21:45:30.074] HTTP[0x0000563c51e47a40][/cfu.php?arch=x86_64&b=sync&lang=en&pl=linux&rn=70&sysver=linux&v=34013186]: RESP_HEADER: Content-Type = "text/html"
+[20210901 21:45:30.074] HTTP[0x0000563c51e47a40][/cfu.php?arch=x86_64&b=sync&lang=en&pl=linux&rn=70&sysver=linux&v=34013186]: RESP_HEADER: Date = "Thu, 02 Sep 2021 01:45:25 GMT"
+[20210901 21:45:30.074] HTTP[0x0000563c51e47a40][/cfu.php?arch=x86_64&b=sync&lang=en&pl=linux&rn=70&sysver=linux&v=34013186]: RESP_HEADER: Server = "nginx"
+[20210901 21:45:30.074] HTTP[0x0000563c51e47a40][/cfu.php?arch=x86_64&b=sync&lang=en&pl=linux&rn=70&sysver=linux&v=34013186]: RESP_HEADER: Strict-Transport-Security = "max-age=31536000; includeSubDomains"
+[20210901 21:45:30.074] HTTP[0x0000563c51e47a40][/cfu.php?arch=x86_64&b=sync&lang=en&pl=linux&rn=70&sysver=linux&v=34013186]: RESP_HEADER: X-Content-Type-Options = "nosniff"
+[20210901 21:45:30.074] HTTP[0x0000563c51e47a40][/cfu.php?arch=x86_64&b=sync&lang=en&pl=linux&rn=70&sysver=linux&v=34013186]: RESP_HEADER: X-Frame-Options = "DENY"
+[20210901 21:45:30.074] HTTP[0x0000563c51e47a40][/cfu.php?arch=x86_64&b=sync&lang=en&pl=linux&rn=70&sysver=linux&v=34013186]: RESP_HEADER: X-Powered-By = "PHP/5.5.9-1ubuntu4.29"
+[20210901 21:45:30.074] HTTP[0x0000563c51e47a40][/cfu.php?arch=x86_64&b=sync&lang=en&pl=linux&rn=70&sysver=linux&v=34013186]: RESP_HEADER: X-XSS-Protection = "1; mode=block"
+[20210901 21:45:30.074] HTTP[0x0000563c51e47a40][/cfu.php?arch=x86_64&b=sync&lang=en&pl=linux&rn=70&sysver=linux&v=34013186]: RESP_HEADER: Content-Length = "22"
+[20210901 21:45:30.074] HTTP[0x0000563c51e47a40][/cfu.php?arch=x86_64&b=sync&lang=en&pl=linux&rn=70&sysver=linux&v=34013186]: RESP_HEADER: Connection = "Close"
+[20210901 21:45:30.074] HTTP[0x0000563c51e47a40][/cfu.php?arch=x86_64&b=sync&lang=en&pl=linux&rn=70&sysver=linux&v=34013186]: RESP_BODY: {...} size 2
+[20210901 21:45:30.074] HTTP[0x0000563c51e47a40][/cfu.php?arch=x86_64&b=sync&lang=en&pl=linux&rn=70&sysver=linux&v=34013186]: closing
+[20210901 21:45:30.132] HTTP[0x0000563c51e47a40][/cfu.php?arch=x86_64&b=sync&lang=en&pl=linux&rn=70&sysver=linux&v=34013186]: destroying
+[20210901 21:45:54.646] CoreState: Total memory: 31615426560, used by Sync: 24141824, percentage used: 0.08
+[20210901 21:45:54.646] CoreState: Cpu load: 0
+[20210901 21:45:54.646] CoreState: Process cpu load: 0
+[20210901 21:45:55.647] SYS_RES: drive "/", id: 64512, capacity: 49992478720, free_space: 35312967680
+[20210901 21:46:54.685] CoreState: Total memory: 31615426560, used by Sync: 24141824, percentage used: 0.08
+[20210901 21:46:54.685] CoreState: Cpu load: 0
+[20210901 21:46:54.685] CoreState: Process cpu load: 0
+[20210901 21:46:56.687] SYS_RES: drive "/", id: 64512, capacity: 49992478720, free_space: 35312967680
+[20210901 21:47:54.224] CoreState: Total memory: 31615426560, used by Sync: 24141824, percentage used: 0.08
+[20210901 21:47:54.224] CoreState: Cpu load: 0
+[20210901 21:47:54.224] CoreState: Process cpu load: 0
+[20210901 21:47:57.226] SYS_RES: drive "/", id: 64512, capacity: 49992478720, free_space: 35312963584
+[20210901 21:48:54.262] CoreState: Total memory: 31615426560, used by Sync: 24141824, percentage used: 0.08
+[20210901 21:48:54.262] CoreState: Cpu load: 0
+[20210901 21:48:54.262] CoreState: Process cpu load: 0
+[20210901 21:48:58.265] SYS_RES: drive "/", id: 64512, capacity: 49992478720, free_space: 35312959488
+[20210901 21:49:54.301] CoreState: Total memory: 31615426560, used by Sync: 24141824, percentage used: 0.08
+[20210901 21:49:54.301] CoreState: Cpu load: 0
+[20210901 21:49:54.301] CoreState: Process cpu load: 0
+[20210901 21:49:59.304] SYS_RES: drive "/", id: 64512, capacity: 49992478720, free_space: 35312959488
+[20210901 21:50:54.341] CoreState: Total memory: 31615426560, used by Sync: 24141824, percentage used: 0.08
+[20210901 21:50:54.341] CoreState: Cpu load: 0
+[20210901 21:50:54.341] CoreState: Process cpu load: 0
+[20210901 21:51:00.345] SYS_RES: drive "/", id: 64512, capacity: 49992478720, free_space: 35312959488
+[20210901 21:51:54.382] CoreState: Total memory: 31615426560, used by Sync: 24141824, percentage used: 0.08
+[20210901 21:51:54.382] CoreState: Cpu load: 0
+[20210901 21:51:54.382] CoreState: Process cpu load: 0
+[20210901 21:52:01.386] SYS_RES: drive "/", id: 64512, capacity: 49992478720, free_space: 35312959488
+[20210901 21:52:54.420] CoreState: Total memory: 31615426560, used by Sync: 24141824, percentage used: 0.08
+[20210901 21:52:54.421] CoreState: Cpu load: 0
+[20210901 21:52:54.421] CoreState: Process cpu load: 0
+[20210901 21:53:02.427] SYS_RES: drive "/", id: 64512, capacity: 49992478720, free_space: 35312959488
+[20210901 21:53:54.461] CoreState: Total memory: 31615426560, used by Sync: 24141824, percentage used: 0.08
+[20210901 21:53:54.461] CoreState: Cpu load: 0
+[20210901 21:53:54.461] CoreState: Process cpu load: 0
+[20210901 21:54:03.466] SYS_RES: drive "/", id: 64512, capacity: 49992478720, free_space: 35312959488
+[20210901 21:54:54.500] CoreState: Total memory: 31615426560, used by Sync: 24236032, percentage used: 0.08
+[20210901 21:54:54.500] CoreState: Cpu load: 0
+[20210901 21:54:54.500] CoreState: Process cpu load: 0
+[20210901 21:55:04.507] SYS_RES: drive "/", id: 64512, capacity: 49992478720, free_space: 35312959488
+[20210901 21:55:05.579] Received shutdown request via signal 15
+[20210901 21:55:05.579] HTTP[0x0000563c51e71740][/e?i=2000&e=eyJhY3Rpb24iOiJzaHV0ZG93biIsImIiOiJzeW5jIiwiY2MiOjAsImNpZCI6InhJYXBacXBnaW1ROWF1WW4iLCJjdiI6IjIuNy4yIiwiZGF0YSI6MCwiZGV1IjpmYWxzZSwiZXZlbnROYW1lIjoic3luY0Jhc2ljIiwiZmlsIjowLCJmb2wiOjAsImZvbGkiOnsiYSI6e30sInMiOnt9fSwiZm9scyI6MCwia2QiOiIiLCJsIjowLCJsYSI6MCwibGFuZyI6ImVuIiwibHQiOiJmcmVlIiwib2RldSI6ZmFsc2UsInBlZXJzIjowLCJwbCI6ImxpbnV4Iiwic2ZmIjowLCJzc2IiOjYxMSwic3NmYyI6MCwic3NmZCI6MCwic3NmcyI6MCwic3lzdmVyIjoibGludXgiLCJ0cmYiOnsiciI6e30sInMiOnt9fSwidHJmYyI6MCwidHMiOjE2MzA1NDc3MDUsInVzZXJzIjowfQ==]: sending GET http://i-2000.b-2-7-2.sync.bench.resilio.com/e?i=2000&e=eyJhY3Rpb24iOiJzaHV0ZG93biIsImIiOiJzeW5jIiwiY2MiOjAsImNpZCI6InhJYXBacXBnaW1ROWF1WW4iLCJjdiI6IjIuNy4yIiwiZGF0YSI6MCwiZGV1IjpmYWxzZSwiZXZlbnROYW1lIjoic3luY0Jhc2ljIiwiZmlsIjowLCJmb2wiOjAsImZvbGkiOnsiYSI6e30sInMiOnt9fSwiZm9scyI6MCwia2QiOiIiLCJsIjowLCJsYSI6MCwibGFuZyI6ImVuIiwibHQiOiJmcmVlIiwib2RldSI6ZmFsc2UsInBlZXJzIjowLCJwbCI6ImxpbnV4Iiwic2ZmIjowLCJzc2IiOjYxMSwic3NmYyI6MCwic3NmZCI6MCwic3NmcyI6MCwic3lzdmVyIjoibGludXgiLCJ0cmYiOnsiciI6e30sInMiOnt9fSwidHJmYyI6MCwidHMiOjE2MzA1NDc3MDUsInVzZXJzIjowfQ==
+[20210901 21:55:05.590] saved history: 0 events
+[20210901 21:55:05.842] SyncFolderScanner: shut down
+[20210901 21:55:05.842] HTTP[0x0000563c51e71740][/e?i=2000&e=eyJhY3Rpb24iOiJzaHV0ZG93biIsImIiOiJzeW5jIiwiY2MiOjAsImNpZCI6InhJYXBacXBnaW1ROWF1WW4iLCJjdiI6IjIuNy4yIiwiZGF0YSI6MCwiZGV1IjpmYWxzZSwiZXZlbnROYW1lIjoic3luY0Jhc2ljIiwiZmlsIjowLCJmb2wiOjAsImZvbGkiOnsiYSI6e30sInMiOnt9fSwiZm9scyI6MCwia2QiOiIiLCJsIjowLCJsYSI6MCwibGFuZyI6ImVuIiwibHQiOiJmcmVlIiwib2RldSI6ZmFsc2UsInBlZXJzIjowLCJwbCI6ImxpbnV4Iiwic2ZmIjowLCJzc2IiOjYxMSwic3NmYyI6MCwic3NmZCI6MCwic3NmcyI6MCwic3lzdmVyIjoibGludXgiLCJ0cmYiOnsiciI6e30sInMiOnt9fSwidHJmYyI6MCwidHMiOjE2MzA1NDc3MDUsInVzZXJzIjowfQ==]: closing
+[20210901 21:55:05.842] shutdown: waiting for connection pool
+[20210901 21:55:05.886] HTTP[0x0000563c51e71740][/e?i=2000&e=eyJhY3Rpb24iOiJzaHV0ZG93biIsImIiOiJzeW5jIiwiY2MiOjAsImNpZCI6InhJYXBacXBnaW1ROWF1WW4iLCJjdiI6IjIuNy4yIiwiZGF0YSI6MCwiZGV1IjpmYWxzZSwiZXZlbnROYW1lIjoic3luY0Jhc2ljIiwiZmlsIjowLCJmb2wiOjAsImZvbGkiOnsiYSI6e30sInMiOnt9fSwiZm9scyI6MCwia2QiOiIiLCJsIjowLCJsYSI6MCwibGFuZyI6ImVuIiwibHQiOiJmcmVlIiwib2RldSI6ZmFsc2UsInBlZXJzIjowLCJwbCI6ImxpbnV4Iiwic2ZmIjowLCJzc2IiOjYxMSwic3NmYyI6MCwic3NmZCI6MCwic3NmcyI6MCwic3lzdmVyIjoibGludXgiLCJ0cmYiOnsiciI6e30sInMiOnt9fSwidHJmYyI6MCwidHMiOjE2MzA1NDc3MDUsInVzZXJzIjowfQ==]: destroying
+[20210901 21:55:05.895] shutdown: connection pool empty
+[20210901 21:55:05.895] WORKER[0x0000563c51e1b950]: thread stop
+[20210901 21:55:05.896] WORKER[0x0000563c51e1bc10]: thread stop
+[20210901 21:55:05.896] WORKER[0x0000563c51e1be90]: thread stop
+[20210901 21:55:05.896] WORKER[0x0000563c51e1c140]: thread stop
+[20210901 21:55:05.896] WORKER[0x0000563c51e1c3d0]: thread stop
+[20210901 21:55:05.896] WORKER[0x0000563c51e1c690]: thread stop
+[20210901 21:55:05.896] WORKER[0x0000563c51e1c950]: thread stop
+[20210901 21:55:05.896] WORKER[0x0000563c51e1cc10]: thread stop
+[20210901 21:55:05.896] unregister completion queue with id 0
+[20210901 21:55:05.896] unregister completion queue with id 1
+[20210901 21:55:05.896] message thread stop
+[20210901 21:55:05.896] GS: shutdown
+[20210901 21:55:05.898] DISKIO[0x0000563c51e1aac0]: stopping service threads
+[20210901 21:55:05.898] DISK_WORKER[0x0000563c51e1ae70]: diskio thread stop, drive_id = 18446744073709551614
+[20210901 21:55:05.899] DISKIO[0x0000563c51e1aac0]: service threads stopped
+[20210901 21:55:05.899] WORKER[0x0000563c51e1ae70]: deleted
+[20210901 21:55:05.899] DISKIO[0x0000563c51e1aac0]: deleted
+[20210901 21:55:05.910] Torrent session shutdown: done waiting
+[20210901 21:55:05.930] UDP: Stopping UDP threads for 0.0.0.0:40004
+[20210901 21:55:05.951] UDP: Stopping UDP threads for [::]:40004
+[20210901 21:55:05.971] Stopping network threads
+[20210901 21:55:06.638] Network_ReleaseSockets: deleting 7EventFD
+[20210901 21:55:06.638] Network_ReleaseSockets: deleting 19UpnpBroadcastSocket
+[20210901 21:55:06.638] Network_ReleaseSockets: deleting 19UpnpBroadcastSocket
+[20210901 21:55:06.638] Network_ReleaseSockets: deleting 13NetlinkSocket
+[20210901 21:55:06.638] Network_ReleaseSockets: deleting 24UpnpNotifyListenerSocket
+[20210901 21:55:06.638] Network_ReleaseSockets: deleting 15NatPmpUdpSocket
+[20210901 21:55:06.638] Network_ReleaseSockets: deleting 20PeerListenConnection
+[20210901 21:55:06.638] Network_ReleaseSockets: deleting 20PeerListenConnection
+[20210901 21:55:06.638] Network_ReleaseSockets: all sockets have been released
+[20210901 21:55:06.638] WORKER[0x0000563c51e1cf70]: thread stop
+[20210901 21:55:06.638] WORKER[0x0000563c51e1cf70]: deleted
+[20210901 21:55:06.638] WORKER[0x0000563c51e1b950]: deleted
+[20210901 21:55:06.638] WORKER[0x0000563c51e1bc10]: deleted
+[20210901 21:55:06.638] WORKER[0x0000563c51e1be90]: deleted
+[20210901 21:55:06.638] WORKER[0x0000563c51e1c140]: deleted
+[20210901 21:55:06.638] WORKER[0x0000563c51e1c3d0]: deleted
+[20210901 21:55:06.638] WORKER[0x0000563c51e1c690]: deleted
+[20210901 21:55:06.638] WORKER[0x0000563c51e1c950]: deleted
+[20210901 21:55:06.638] WORKER[0x0000563c51e1cc10]: deleted
+[20210901 21:55:06.638] Shutdown. Saving config sync.dat

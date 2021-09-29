@@ -7,6 +7,12 @@ from glob import glob
 import torch, face_detection
 from models import Wav2Lip
 import platform
+import re
+import datetime
+from termcolor import colored
+import config # my config
+
+print(colored("starting wav2lip...", "green"))
 
 parser = argparse.ArgumentParser(description='Inference code to lip-sync videos in the wild using Wav2Lip models')
 
