@@ -12,6 +12,7 @@ import datetime
 from termcolor import colored
 import config # my config
 
+# hello
 print(colored("starting wav2lip...", "green"))
 print()
 
